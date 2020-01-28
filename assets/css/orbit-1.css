@@ -18,8 +18,15 @@ body {
 }
 
 h1,
-h2,
-h3,
+h2 {
+    font-weight: 700;
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 1rem;
+}
+
 h4,
 h5,
 h6 {
@@ -27,7 +34,7 @@ h6 {
 }
 
 h1 {
-    color: #1f1f1f;
+    color: #eee;
 }
 
 a {
@@ -52,7 +59,7 @@ p {
 }
 
 .wrapper {
-    background: #42A8C0;
+    background: #1b1b1b;
     max-width: 960px;
     margin: 0 auto;
     margin-top: 30px;
@@ -63,10 +70,10 @@ p {
 }
 
 .sidebar-wrapper {
-    background: #42A8C0;
+    background: #121212;
     position: absolute;
     right: 0;
-    width: 240px;
+    width: 250px;
     height: 100%;
     min-height: 800px;
     color: #fff;
@@ -92,8 +99,8 @@ p {
 
 .sidebar-wrapper .tagline {
     color: rgba(255, 255, 255, 0.6);
-    font-size: 16px;
-    font-weight: 400;
+    font-size: 18px;
+    font-weight: 500;
     margin-top: 0;
     margin-bottom: 0;
 }
@@ -121,15 +128,17 @@ p {
 }
 
 .sidebar-wrapper .container-block {
-    padding: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
 }
 
 .sidebar-wrapper .container-block-title {
     text-transform: uppercase;
-    font-size: 16px;
+    font-size: 1.05rem;
     font-weight: 700;
     margin-top: 0;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
 
 .sidebar-wrapper .degree {
@@ -235,7 +244,7 @@ p {
 }
 
 .main-wrapper .experiences-section .item {
-    margin-bottom: 30px;
+    margin-bottom: 15px;
 }
 
 .main-wrapper .upper-row {
@@ -344,7 +353,7 @@ p {
     .skillset .level-title {
         display: inline-block;
         float: left;
-        width: 30%;
+        width: 40%;
         margin-bottom: 0;
     }
 }
