@@ -130,12 +130,12 @@ p {
 .sidebar-wrapper .container-block {
     padding-left: 30px;
     padding-right: 30px;
-    padding-bottom: 30px;
+    padding-bottom: 1.5em;
 }
 
 .sidebar-wrapper .container-block-title {
     text-transform: uppercase;
-    font-size: 1.05rem;
+    font-size: 1.15rem;
     font-weight: 700;
     margin-top: 0;
     margin-bottom: 20px;
@@ -291,6 +291,7 @@ p {
 .skillset .item {
     margin-bottom: 15px;
     overflow: hidden;
+    height: 2rem;
 }
 
 .skillset .level-title {
